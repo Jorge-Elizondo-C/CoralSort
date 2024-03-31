@@ -8,11 +8,11 @@ from matplotlib import image as mpimg
 
 plt.title("Coral")
 
-# image = mpimg.imread("C:/Users/BENDECIDO/Downloads/drive-download-20240329T071726Z-001/DSCN2178.jpg")
+# image = mpimg.imread("C:/Users/Jorge/Downloads/drive-download-20240329T071726Z-001/DSCN2178.jpg")
 # plt.imshow(image)
 # # plt.show()
 
-img = cv2.imread("C:/Users/BENDECIDO/Downloads/drive-download-20240329T071726Z-001/DSCN2178.jpg")
+img = cv2.imread("C:/Users/Jorge/Downloads/drive-download-20240329T071726Z-001/DSCN2178.jpg")
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 plt.imshow(cv2.cvtColor(gray, cv2.COLOR_BGR2RGB))
 # plt.show()
