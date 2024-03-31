@@ -6,7 +6,7 @@ import imutils
 import easyocr
 from matplotlib import image as mpimg
 
-image = cv2.imread('C:/Users/BENDECIDO/Downloads/drive-download-20240329T071726Z-001/DSCN2178.jpg')
+image = cv2.imread('C:/Users/Jorge/Downloads/drive-download-20240329T071726Z-001/DSCN2178.jpg')
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 plt.imshow(cv2.cvtColor(gray, cv2.COLOR_BGR2RGB))
 plt.show()
